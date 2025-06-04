@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${wdxl.className} bg-background text-foreground`}>
+      <body
+        className={`${wdxl.className} bg-background text-foreground text-xl`}
+      >
         {children}
       </body>
     </html>
